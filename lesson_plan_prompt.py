@@ -32,9 +32,9 @@ Generate a comprehensive lesson plan on the topic of '{topic}' for a {duration_m
 
 # Example usage
 if __name__ == '__main__':
-    topic = "Photosynthesis"
+    topic = "Retraction Formulas Data structures"
     duration_minutes = 60
-    additional_context = "Make sure to include specific examples related to plant biology and the environmental impact of photosynthesis."
+    additional_context = "Make sure to include specific examples and mark the importance of the subject to the data structures course"
 
     lesson_plan_prompt = generate_lesson_plan(topic, duration_minutes, additional_context)
     print(lesson_plan_prompt)
